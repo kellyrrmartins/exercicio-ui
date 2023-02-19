@@ -3,7 +3,7 @@ pipeline {
 
     stages {
     
-        stage('Instalar dependencias') {
+        stage('Clonar repositorio') {
             steps {
               git branch: 'main', url: 'https://github.com/kellyrrmartins/exercicio-ui.git'
             }
