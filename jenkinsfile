@@ -5,7 +5,7 @@ pipeline {
     
         stage('Instalar dependencias') {
             steps {
-              git branch: 'main', url: 'https://github.com/kellyrrmartins/tcc-ebac.git'
+              git branch: 'main', url: 'https://github.com/kellyrrmartins/exercicio-ui.git'
             }
         }
         stage('Instalar dependencias') {
